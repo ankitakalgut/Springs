@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<!-- scope=singleton means only once instance of object is created and can be used any number of times -->
+<bean id = "helloWorld" class = "com.bridgelabzSprings.Scope.HelloWorld" scope="singleton">
+
+</bean>
+<bean id = "helloWorld1" class = "com.bridgelabzSprings.Scope.HelloWorld" scope="prototype">
+</bean>
+</beans>
